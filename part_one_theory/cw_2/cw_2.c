@@ -10,10 +10,10 @@ int main() {
     printf("bool: %d \n\n", sizeof(bool));
 
     // Second
-    printf("Wyswietlam liczbe: %d\n\n",4);
+    printf("Wyswietlam liczbe: %d\n\n", 4);
 
     // Third
-    printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n",0,1,2,3,4,5,6,7,8,9);
+    printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
     system("PAUSE");
     return 0;
