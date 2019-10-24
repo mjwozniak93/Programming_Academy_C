@@ -1,0 +1,7 @@
+## Main Visual Studio Code configuration folder
+.vscode
+.vs
+
+## Compiler output files
+*.exe
+*.out

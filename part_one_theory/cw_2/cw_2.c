@@ -3,12 +3,12 @@
 
 int main() {
     // First
-    printf("int: %d \r\n", sizeof(int));
-    printf("float: %d \r\n", sizeof(float));
-    printf("double: %d \r\n", sizeof(double));
-    printf("char: %d \r\n", sizeof(char));
-    printf("bool: %d \r\n\n", sizeof(bool));
-
+    printf("int: %d \r\n", sizeof(int));                                        // Uprzejmie przepraszam za wprowadzenie w błąd
+    printf("float: %d \r\n", sizeof(float));                                    // \r\n powinniśmy używać w systemie Windows to prawda
+    printf("double: %d \r\n", sizeof(double));                                  // Natomiast sam program jest otwierany za pomocą MinGW
+    printf("char: %d \r\n", sizeof(char));                                      // A więc nakładką na środowisko UNIX dlatego powinno 
+    printf("bool: %d \r\n\n", sizeof(bool));                                    // używać się \n
+                                                                                // Stosowne poprawki pojawią się w dokumentach szkoleniowych
     // Second
     printf("Wyswietlam liczbe: %d\n\n",4);
 
