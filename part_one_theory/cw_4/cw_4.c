@@ -18,7 +18,7 @@ int main() {
     printf("%c \r\n", letter);
     printf("%s \r\n", word);
     printf("%lf \n",gold_number); // First
-    printf("%s\n",b_logic?"true":"false"); // First                             // Źle sformatowane, brakuje przerw pomiędzy operatorami
+    printf("%s\n",b_logic ? "true" : "false"); // First
     printf("%s\n",s_world); //Second
 
     system("PAUSE");
